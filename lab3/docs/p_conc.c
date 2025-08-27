@@ -130,8 +130,9 @@ int main(int argc, char *argv[]) {
     printf("\nArquivo: %s | Threads: %d\n", arquivo, nthreads);
     printf("Tempos (s): ");
     for(int i=0; i<repeticoes; i++) printf("%.6f ", tempos[i]);
-    printf("\nMédia: %.6f s | Desvio: %.6f s | Variação relativa: %.2f%%\n",
+    printf("\nMedia: %.6f s | Desvio: %.6f s | Variacao relativa: %.2f%%\n",
            media, desvio, variacao_rel*100);
 
     return 0;
 }
+
